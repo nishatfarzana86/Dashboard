@@ -1,0 +1,96 @@
+/*@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";*/
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(FinalKV_DhakaLegends.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(0, 0, 0)!important;
+    opacity: 1; /* Firefox */
+  }
+.box{
+    width: 380px;
+    height: 10px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.box h1{
+    color: rgb(158, 106, 29);
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    black!important;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    black!important;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    black!important;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    black!important;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+    color:    black!important;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+    color:    black!important;
+}
+
+.box input[type = "text"], .box input[type = "password"]{
+    border: 0;
+    color: rgb(0, 0, 0)!important;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #000000;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.box input[type = "text"]:focus, .box input[type = "password"]:focus{
+    width: 280px;
+    border-color: #000000;
+   
+}
+
+
+
+.box input[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #000000;
+    padding: 14px 40px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.box input[type = "submit"]:hover{
+    background: #b10707;
+}
+
